@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 3em;
+    width: 80%;
+    margin: 5em auto; /* Center the grid */
+}
+
+.addCar {
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.plus {
+    font-size: 40px;
+    cursor: pointer;
+    align-self: center;
+}
